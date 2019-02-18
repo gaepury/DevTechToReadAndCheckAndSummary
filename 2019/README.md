@@ -1,5 +1,7 @@
 ## To Read List
 - Link : process check List 
+
+### 기술 서적
 1. [자바로 배우는 리팩토링 입문(유키 히로시)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%9E%90%EB%B0%94%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%20%EC%9E%85%EB%AC%B8.md)
 2. [켄트백의 구현 패턴(켄트백)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%BC%84%ED%8A%B8%EB%B0%B1%EC%9D%98%20%EA%B5%AC%ED%98%84%20%ED%8C%A8%ED%84%B4.md)
 3. [Clean Code(로버트 C 마틴)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/Clean%20Code.md)
@@ -22,5 +24,8 @@
 19. [대용량 서버 구축을 위한 Memcashed와 redis(강대명)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%8C%80%EC%9A%A9%EB%9F%89%20%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%B6%95%EC%9D%84%20%EC%9C%84%ED%95%9C%20Memcashed%EC%99%80%20redis.md)
 20. [코딩 인터뷰 완전분석(게일 라크만 맥도웰)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%BD%94%EB%94%A9%20%EC%9D%B8%ED%84%B0%EB%B7%B0%20%EC%99%84%EC%A0%84%EB%B6%84%EC%84%9D.md)
 21. [Kubernetes In Action(마르코 룩샤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/Kubernetes%20In%20Action.md)
+
+### 기술 인강
+1. 리액트 네이티브로 투두앱 만들기
 
 ## Done List
