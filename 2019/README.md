@@ -1,5 +1,5 @@
 ## To Read List
-- Link : process check List 
+- Link : 진행 상태 및 check List 
 
 ### 기술 서적
 1. [자바로 배우는 리팩토링 입문(유키 히로시)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%9E%90%EB%B0%94%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81%20%EC%9E%85%EB%AC%B8.md)
