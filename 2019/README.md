@@ -4,7 +4,7 @@
 2. [켄트백의 구현 패턴(켄트백)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%BC%84%ED%8A%B8%EB%B0%B1%EC%9D%98%20%EA%B5%AC%ED%98%84%20%ED%8C%A8%ED%84%B4.md)
 3. [Clean Code(로버트 C 마틴)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/Clean%20Code.md)
 4. [스프링 5 레시피(마린 데니엄 등..)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%8A%A4%ED%94%84%EB%A7%81%205%20%EB%A0%88%EC%8B%9C%ED%94%BC.md)
-4. [테스트 주도 개발(켄트백)]
+4. [테스트 주도 개발(켄트백)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%A3%BC%EB%8F%84%20%EA%B0%9C%EB%B0%9C.md)
 5. [헤드 퍼스트 디자인 패턴(에릭 프리먼 등..)]
 6. [리팩토링(마틴 파울러)]
 7. [DevOps와 SE를 위한 리눅스 커널 이야기(강진우)]
