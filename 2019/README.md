@@ -24,8 +24,11 @@
 19. [대용량 서버 구축을 위한 Memcashed와 redis(강대명)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%8C%80%EC%9A%A9%EB%9F%89%20%EC%84%9C%EB%B2%84%20%EA%B5%AC%EC%B6%95%EC%9D%84%20%EC%9C%84%ED%95%9C%20Memcashed%EC%99%80%20redis.md)
 20. [코딩 인터뷰 완전분석(게일 라크만 맥도웰)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%BD%94%EB%94%A9%20%EC%9D%B8%ED%84%B0%EB%B7%B0%20%EC%99%84%EC%A0%84%EB%B6%84%EC%84%9D.md)
 21. [Kubernetes In Action(마르코 룩샤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/Kubernetes%20In%20Action.md)
+22. 자바로 배우는 핵심 자료구조와 알고리즘
 
 ### 기술 인강
-1. [리액트 네이티브로 투두앱 만들기](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EB%A1%9C%20%ED%88%AC%EB%91%90%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
+1. [리액트 네이티브로 투두앱 만들기(니콜라스](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EB%A1%9C%20%ED%88%AC%EB%91%90%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
+2. 스프링 데이터 JPA(백기선)
+3. 스프링 기반 Rest API 개발(백기선)
 
 ## Done List
