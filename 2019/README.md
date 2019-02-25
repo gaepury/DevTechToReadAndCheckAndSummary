@@ -13,7 +13,7 @@
 8. [자바 트러블 슈팅(이상민)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%9E%90%EB%B0%94%20%ED%8A%B8%EB%9F%AC%EB%B8%94%20%EC%8A%88%ED%8C%85.md)
 9. [HTTP 완벽 가이드(안슈 아가왈)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/HTTP%20%EC%99%84%EB%B2%BD%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
 10. [자바 성능 튜닝 이야기(이상민)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
-11. [개발자를 위한 하룻밤에 읽는 Go 언어 이야기](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%ED%95%98%EB%A3%BB%EB%B0%A4%EC%97%90%20%EC%9D%BD%EB%8A%94%20Go%20%EC%96%B8%EC%96%B4%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
+11. ~~[개발자를 위한 하룻밤에 읽는 Go 언어 이야기](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%ED%95%98%EB%A3%BB%EB%B0%A4%EC%97%90%20%EC%9D%BD%EB%8A%94%20Go%20%EC%96%B8%EC%96%B4%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)~~
 12. [디스커버리 Go 언어](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%94%94%EC%8A%A4%EC%BB%A4%EB%B2%84%EB%A6%AC%20Go%20%EC%96%B8%EC%96%B4.md)
 13. [유닉스, 리눅스 쉘 스크립트 사전](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%9C%A0%EB%8B%89%EC%8A%A4%2C%20%EB%A6%AC%EB%88%85%EC%8A%A4%20%EC%89%98%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%82%AC%EC%A0%84.md)
 14. [effiective java3(조슈아 블로크)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/effactive%20java3.md)
