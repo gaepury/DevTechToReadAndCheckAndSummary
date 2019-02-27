@@ -32,6 +32,7 @@
     - 진행률: 33%
 15. [effiective java3(조슈아 블로크)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/effactive%20java3.md)
     - 진행률: 50%
+    - 스터디 자료: https://github.com/NMP-Study/EffectiveJava
 16. [러닝스파크(홀든 카로 등..)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%9F%AC%EB%8B%9D%EC%8A%A4%ED%8C%8C%ED%81%AC.md)
     - 진행률: 0%
 17. [카프카, 데이터 플랫폼의 최강자(고승범)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%B9%B4%ED%94%84%EC%B9%B4%2C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9D%98%20%EC%B5%9C%EA%B0%95%EC%9E%90.md)
