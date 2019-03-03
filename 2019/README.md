@@ -50,7 +50,7 @@
 23. 자바로 배우는 핵심 자료구조와 알고리즘
     - 진행률: 0%
 24. [점프 투 파이썬](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
-    - 진행률: 0%
+    - 진행률: 42%
 
 
 ### 기술 인강
