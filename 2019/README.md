@@ -53,7 +53,7 @@
     - 진행률: 100%
 25. Java 객체 지향 디자인 패턴
     - 진행률: 0%
-26. 아파치 카프카 쿡북
+26. [아파치 카프카 쿡북](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%95%84%ED%8C%8C%EC%B9%98%20%EC%B9%B4%ED%94%84%EC%B9%B4%20%EC%BF%A1%EB%B6%81.md)
     - 진행률: 0%
 
 ### 기술 인강
