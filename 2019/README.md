@@ -53,6 +53,8 @@
     - 진행률: 100%
 25. Java 객체 지향 디자인 패턴
     - 진행률: 0%
+26. 아파치 카프카 쿡북
+    - 진행률: 0%
 
 ### 기술 인강
 1. ~~[리액트 네이티브로 투두앱 만들기(니콜라스)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EB%A1%9C%20%ED%88%AC%EB%91%90%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)~~
