@@ -36,7 +36,7 @@
 16. [러닝스파크(홀든 카로 등..)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%9F%AC%EB%8B%9D%EC%8A%A4%ED%8C%8C%ED%81%AC.md)
     - 진행률: 0%
 17. [카프카, 데이터 플랫폼의 최강자(고승범)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%B9%B4%ED%94%84%EC%B9%B4%2C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%94%8C%EB%9E%AB%ED%8F%BC%EC%9D%98%20%EC%B5%9C%EA%B0%95%EC%9E%90.md)
-    - 진행률: 27%
+    - 진행률: 45%
 18. [spring 4.0(최범균)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/spring%204.0.md)
     - 진행률: 10%
 19. [javascript design pattern(스테얀 스테파노프)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/javascript%20design%20pattern.md)
