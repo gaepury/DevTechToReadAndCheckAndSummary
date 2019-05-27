@@ -31,7 +31,7 @@
 14. [유닉스, 리눅스 쉘 스크립트 사전](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%9C%A0%EB%8B%89%EC%8A%A4%2C%20%EB%A6%AC%EB%88%85%EC%8A%A4%20%EC%89%98%20%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%82%AC%EC%A0%84.md)
     - 진행률: 33%
 15. [effiective java3(조슈아 블로크)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/effactive%20java3.md)
-    - 진행률: 80%
+    - 진행률: 90%
     - 스터디 자료: https://github.com/NMP-Study/EffectiveJava
 16. [러닝스파크(홀든 카로 등..)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%9F%AC%EB%8B%9D%EC%8A%A4%ED%8C%8C%ED%81%AC.md)
     - 진행률: 0%
