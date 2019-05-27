@@ -51,7 +51,7 @@
     - 진행률: 0%
 24. ~~[점프 투 파이썬](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)~~
     - 진행률: 100%
-25. Java 객체 지향 디자인 패턴
+25. [Java 객체 지향 디자인 패턴](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4.md)
     - 진행률: 0%
 26. [아파치 카프카 쿡북](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%95%84%ED%8C%8C%EC%B9%98%20%EC%B9%B4%ED%94%84%EC%B9%B4%20%EC%BF%A1%EB%B6%81.md)
     - 진행률: 0%
