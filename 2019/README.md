@@ -55,8 +55,10 @@
     - 진행률: 0%
 26. [아파치 카프카 쿡북](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%95%84%ED%8C%8C%EC%B9%98%20%EC%B9%B4%ED%94%84%EC%B9%B4%20%EC%BF%A1%EB%B6%81.md)
     - 진행률: 0%
-27. 핸즈 온 머신러닝
-28. 3분 딥러닝
+27. [핸즈 온 머신러닝]
+    - 진행률: 0%
+28. [3분 딥러닝](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/3%EB%B6%84%20%EB%94%A5%EB%9F%AC%EB%8B%9D.md)
+    - 진행률: 0%
 
 ### 기술 인강
 1. ~~[리액트 네이티브로 투두앱 만들기(니콜라스)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EB%A1%9C%20%ED%88%AC%EB%91%90%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)~~
