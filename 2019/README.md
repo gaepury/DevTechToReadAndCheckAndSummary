@@ -47,13 +47,13 @@
     - 진행률: 0%
 22. [Kubernetes In Action(마르코 룩샤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/Kubernetes%20In%20Action.md)
     - 진행률: 0%
-23. [자바로 배우는 핵심 자료구조와 알고리즘](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%9E%90%EB%B0%94%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%ED%95%B5%EC%8B%AC%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
+23. [자바로 배우는 핵심 자료구조와 알고리즘(앨런 B. 다우니)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%9E%90%EB%B0%94%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%ED%95%B5%EC%8B%AC%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
     - 진행률: 0%
 24. ~~[점프 투 파이썬(박응용)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)~~
     - 진행률: 100%
-25. [Java 객체 지향 디자인 패턴](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4.md)
+25. [Java 객체 지향 디자인 패턴(정인상,채흥석)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4.md)
     - 진행률: 0%
-26. [아파치 카프카 쿡북](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%95%84%ED%8C%8C%EC%B9%98%20%EC%B9%B4%ED%94%84%EC%B9%B4%20%EC%BF%A1%EB%B6%81.md)
+26. [아파치 카프카 쿡북(라울 에스트라다)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EC%95%84%ED%8C%8C%EC%B9%98%20%EC%B9%B4%ED%94%84%EC%B9%B4%20%EC%BF%A1%EB%B6%81.md)
     - 진행률: 0%
 27. [핸즈 온 머신러닝(오렐리앙 제롱)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%ED%95%B8%EC%A6%88%20%EC%98%A8%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D.md)
     - 진행률: 0%
