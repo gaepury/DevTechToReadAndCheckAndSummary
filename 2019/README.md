@@ -59,7 +59,7 @@
     - 진행률: 0%
 28. [3분 딥러닝(김진중)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/3%EB%B6%84%20%EB%94%A5%EB%9F%AC%EB%8B%9D.md)
     - 진행률: 40%
-29. ~~~[누구나 쉽게 스칼라+플레이(고락윤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%88%84%EA%B5%AC%EB%82%98%20%EC%89%BD%EA%B2%8C%20%EC%8A%A4%EC%B9%BC%EB%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4.md)~~~
+29. ~~[누구나 쉽게 스칼라+플레이(고락윤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%88%84%EA%B5%AC%EB%82%98%20%EC%89%BD%EA%B2%8C%20%EC%8A%A4%EC%B9%BC%EB%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4.md)~~
     - 진행률: 100%
 
 ### 기술 인강
