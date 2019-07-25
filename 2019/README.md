@@ -59,8 +59,8 @@
     - 진행률: 0%
 28. [3분 딥러닝(김진중)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/3%EB%B6%84%20%EB%94%A5%EB%9F%AC%EB%8B%9D.md)
     - 진행률: 40%
-29. [누구나 쉽게 스칼라+플레이(고락윤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%88%84%EA%B5%AC%EB%82%98%20%EC%89%BD%EA%B2%8C%20%EC%8A%A4%EC%B9%BC%EB%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4.md)
-    - 진행률: 66%
+29. ~~~[누구나 쉽게 스칼라+플레이(고락윤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%88%84%EA%B5%AC%EB%82%98%20%EC%89%BD%EA%B2%8C%20%EC%8A%A4%EC%B9%BC%EB%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4.md)~~~
+    - 진행률: 100%
 
 ### 기술 인강
 1. ~~[리액트 네이티브로 투두앱 만들기(니콜라스)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EB%A1%9C%20%ED%88%AC%EB%91%90%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)~~
@@ -79,3 +79,6 @@
    - 완료 날짜: 2019.03.08. 금
 4. [effiective java3(조슈아 블로크)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/effactive%20java3.md)
    - 완료 날짜: 2019.05.24. 금
+5. [누구나 쉽게 스칼라+플레이(고락윤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%88%84%EA%B5%AC%EB%82%98%20%EC%89%BD%EA%B2%8C%20%EC%8A%A4%EC%B9%BC%EB%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4.md)
+   - 완료 날짜: 2019.07.25. 목
+   
