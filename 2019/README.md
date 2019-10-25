@@ -61,6 +61,12 @@
     - 진행률: 40%
 29. ~~[누구나 쉽게 스칼라+플레이(고락윤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%88%84%EA%B5%AC%EB%82%98%20%EC%89%BD%EA%B2%8C%20%EC%8A%A4%EC%B9%BC%EB%9D%BC+%ED%94%8C%EB%A0%88%EC%9D%B4.md)~~
     - 진행률: 100%
+30. [자바 최적화: 가장 빠른 성능을 구현하는 검증된 10가지 기법(벤저민 J 등...)]()
+    - 진행률: 0%
+31. [모던 자바인 액션](라울-게이브리얼 우르마 등...)
+    - 진행률: 0%
+32. [스프링 5를 활용한 리액티브 프로그래밍](올레 도쿠카 등..)
+    - 진행률: 0%
 
 ### 기술 인강
 1. ~~[리액트 네이티브로 투두앱 만들기(니콜라스)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/2019/check/%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%EB%A1%9C%20%ED%88%AC%EB%91%90%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)~~
