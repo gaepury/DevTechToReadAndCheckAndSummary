@@ -43,7 +43,7 @@
 20. [Kubernetes In Action(마르코 룩샤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/Kubernetes%20In%20Action.md)
     - 진행률: 0%
 21. [자바로 배우는 핵심 자료구조와 알고리즘(앨런 B. 다우니)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%9E%90%EB%B0%94%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%ED%95%B5%EC%8B%AC%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
-    - 진행률: 17%(In Progress..)
+    - 진행률: 17%**(In Progress..)**
 22. [Java 객체 지향 디자인 패턴(정인상,채흥석)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/Java%20%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4.md)
     - 진행률: 0%
 23. [아파치 카프카 쿡북(라울 에스트라다)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%95%84%ED%8C%8C%EC%B9%98%20%EC%B9%B4%ED%94%84%EC%B9%B4%20%EC%BF%A1%EB%B6%81.md)
@@ -53,13 +53,13 @@
 25. [3분 딥러닝(김진중)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/3%EB%B6%84%20%EB%94%A5%EB%9F%AC%EB%8B%9D.md)
     - 진행률: 40%
 26. [자바 최적화: 가장 빠른 성능을 구현하는 검증된 10가지 기법(벤저민 J 등...)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
-    - 진행률: 27%(In Progress..)
+    - 진행률: 27%**(In Progress..)**
 27. [모던 자바인 액션(라울-게이브리얼 우르마 등...)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
     - 진행률: 0%
 28. [스프링 5를 활용한 리액티브 프로그래밍(올레 도쿠카 등..)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EC%8A%A4%ED%94%84%EB%A7%81%205%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EB%A6%AC%EC%95%A1%ED%8B%B0%EB%B8%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
     - 진행률: 0%
 29. [함수형 자바스크립트(루이스 아텐시오)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%ED%95%A8%EC%88%98%ED%98%95%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.md)
-    - 진행률: 50%(In Progress..)
+    - 진행률: 50%**(In Progress..)**
 
 
 ### 기술 인강
@@ -72,7 +72,7 @@
 4. 더 자바, 코드를 조작하는 다양한 방법(백기선)
    - 진행률: 0%
 5. 토비의 봄 TV 스프링 리액티브 프로그래밍
-   - 진행률: 20%(2/10)
+   - 진행률: 20%(2/10)**(In Progress..)**
    
    
 ## Done List
