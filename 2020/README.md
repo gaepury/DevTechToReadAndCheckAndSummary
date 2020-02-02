@@ -59,7 +59,7 @@
 28. [스프링 5를 활용한 리액티브 프로그래밍(올레 도쿠카 등..)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EC%8A%A4%ED%94%84%EB%A7%81%205%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EB%A6%AC%EC%95%A1%ED%8B%B0%EB%B8%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
     - 진행률: 0%
 29. [함수형 자바스크립트(루이스 아텐시오)]()
-    - 진행률: 37%
+    - 진행률: 50%
 
 
 ### 기술 인강
