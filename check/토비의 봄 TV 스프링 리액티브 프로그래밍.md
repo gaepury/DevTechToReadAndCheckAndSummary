@@ -9,7 +9,7 @@
 - [ ] 7편: CompletableFuture
 - [x] 8편: WebFlux
 - [x] 9편: Mono의 동작방식과 block()
-- [ ] 10편: Flux의 특징과 활용방법
+- [x] 10편: Flux의 특징과 활용방법
   
 # Chapter별 Summary
 ## 1편(Reactive Streams)
@@ -147,4 +147,37 @@ https://www.youtube.com/watch?v=LK6NRV8tZBM
     * block()메서드는 내부에서 subscribe를 함, 따라서 결과는 로그가 두번찍힘.
     * Api나 db호출이 있으면 block(), return할때 IO가 두번 일어날수 있으므로 비효율적, 따라서 가능한한 사용하지 않는것이 좋음. 
   
-  ---
+---
+## 10편(Flux의 특징과 활용방법)
+* Flux 간단 예제(Flux.just)
+    * ![image](https://user-images.githubusercontent.com/20143765/75628368-b3e19800-5c1b-11ea-8ec1-0a6fb2d84a78.png)
+    * Flux.just 인자론 여러개
+* Mono.just안에 List vs Flux.just에 인자 여러개
+    * ![image](https://user-images.githubusercontent.com/20143765/75628370-b80db580-5c1b-11ea-9743-e3fc6473574e.png)
+    * 결과는 같다.
+    * Mono.just로 할시 List 안에 Entity들을 조작,가공할때 reactor 라이브러리에 있는 operator를 이용할수 없음.
+* HTTP 스트림을 지원하려면 Flux
+    * ![image](https://user-images.githubusercontent.com/20143765/75628372-bb08a600-5c1b-11ea-9b4e-06988bb0ba30.png)
+    * ![image](https://user-images.githubusercontent.com/20143765/75628377-bf34c380-5c1b-11ea-9ac2-9c74ba87526c.png)
+* Stream을 이용해서 가져오기 + 특정 개수만큼 가져오기(take)
+    * ![image](https://user-images.githubusercontent.com/20143765/75628379-c2c84a80-5c1b-11ea-9828-c1f05511b020.png)
+* onNext로 오는것을 delay 걸기
+    * ![image](https://user-images.githubusercontent.com/20143765/75628382-c65bd180-5c1b-11ea-89df-9730de701bfb.png)
+    * delay는 백그라운드에서 blocking됨
+* Flux의 generate 사용
+    * generate(Consumer<SynchronousSink>)
+        * sink
+            * 데이터를 흘려보내는 역할
+        * ![image](https://user-images.githubusercontent.com/20143765/75628384-ca87ef00-5c1b-11ea-93c6-99b856839607.png)
+    * generate(Callable, BiFunction)
+        * ![image](https://user-images.githubusercontent.com/20143765/75628385-ceb40c80-5c1b-11ea-94ab-c4bd04930f8c.png)
+        * 첫번쨰 인자: 초기 상태값
+        * 두번째 인자: 상태값과 sink을 보내서 다음 상태값을 return
+* 여러 Flux 결합(merge)하기(with Flux interval)
+    * Flux.zip 사용
+    * Interval flux의 delay만 이용하고 es flux의 데이터만 가져오기
+        * ![image](https://user-images.githubusercontent.com/20143765/75628387-d1aefd00-5c1b-11ea-95ca-e7c9a3e58c66.png)
+    * id만들때 interval의 값 이용하기
+        * ![image](https://user-images.githubusercontent.com/20143765/75628391-d673b100-5c1b-11ea-98dd-3d613ee98bf8.png)
+    * zip의 효율적인 ex
+        * 여러 서비스에서 데이터를 호출하고(사용자 프로파일 정보, 사용자 디테일정보등) 결합하여 제공
