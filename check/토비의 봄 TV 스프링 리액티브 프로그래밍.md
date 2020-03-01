@@ -157,6 +157,7 @@ https://www.youtube.com/watch?v=LK6NRV8tZBM
     * 결과는 같다.
     * Mono.just로 할시 List 안에 Entity들을 조작,가공할때 reactor 라이브러리에 있는 operator를 이용할수 없음.
 * HTTP 스트림을 지원하려면 Flux
+    * MediaType 
     * ![image](https://user-images.githubusercontent.com/20143765/75628372-bb08a600-5c1b-11ea-9b4e-06988bb0ba30.png)
     * ![image](https://user-images.githubusercontent.com/20143765/75628377-bf34c380-5c1b-11ea-9ac2-9c74ba87526c.png)
 * Stream을 이용해서 가져오기 + 특정 개수만큼 가져오기(take)
