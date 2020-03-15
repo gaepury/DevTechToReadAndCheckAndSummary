@@ -10,9 +10,8 @@
     * 지네릭 메서드가 static 메서드일경우 메소드 매개변수의 타입파라미터는 클레스 레벨의 타입파라미터를 이용할수 없다.
         * 지네릭 메서드는 메소드 레벨이므로
         * ![image](https://user-images.githubusercontent.com/20143765/76697182-4fbcda80-66d7-11ea-860e-ef2146c27562.png)
-    * 지네릭 메서드가 instance메서드일경우에는 두개다(클래스 레벨 타입 파라미터 T메소드 레벨 타입 파라미터S) 사용가능
+    * 지네릭 메서드가 instance메서드일경우에는 두개다(T: 클래스 레벨 타입 파라미터, S: 메소드 레벨 타입 파라미터) 사용가능
         * ![image](https://user-images.githubusercontent.com/20143765/76697180-4a5f9000-66d7-11ea-9359-3560994bfef4.png)
-        * T는 클래스레벨, S는 메소드 레벨 타입 매개변수
     * 생성자에서도 타입파라미터 사용가능
         * ![image](https://user-images.githubusercontent.com/20143765/76697184-53506180-66d7-11ea-8945-50f2b03143ef.png)
 * Bounded Type Parameter
