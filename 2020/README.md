@@ -74,7 +74,7 @@
 5. [토비의 봄 TV 스프링 리액티브 프로그래밍](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%ED%86%A0%EB%B9%84%EC%9D%98%20%EB%B4%84%20TV%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%A6%AC%EC%95%A1%ED%8B%B0%EB%B8%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
    - 진행률: 60%(6/10)**(In Progress..)**
 6. [토비의 봄 TV 자바 Generic](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%ED%86%A0%EB%B9%84%EC%9D%98%20%EB%B4%84%20TV%20%EC%9E%90%EB%B0%94%20Generic.md)
-   - 진행률: 0%(0/2)**(In Progress..)**
+   - 진행률: 50%(1/2)**(In Progress..)**
 7. ~~[생활코딩 github actions](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9%20github%20actions.md)~~
    - 진행률 100%   
    
