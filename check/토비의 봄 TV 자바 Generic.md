@@ -27,7 +27,7 @@
 * 타입 추론 제공
     * ![image](https://user-images.githubusercontent.com/20143765/76697192-63684100-66d7-11ea-85c6-3dc1a2a95ac9.png)
         * static 지네릭 메서드 타입 추론 정보 제공 
-* ?(와일드카드)과 T(타입파라미터) 차이점
+* ?(와일드카드
     * List<?> = List<? extends Object>
     * ![image](https://user-images.githubusercontent.com/20143765/76697196-66fbc800-66d7-11ea-9a3c-78af525cc20f.png)
         * printList와 printList2의 차이점
