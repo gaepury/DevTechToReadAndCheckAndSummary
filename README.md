@@ -1,5 +1,5 @@
 # TechBookToReadAndCheck
-기술 서적(or 기술 인강(유투브 포함)) To Read and Check, Summary 용 repository
+년도 별 기술 서적(or 기술 인강(유투브 포함)) To Read and Check, Summary 용 repository
 
 
 ### 년도 별 To Read And Check List
