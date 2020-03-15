@@ -1,6 +1,7 @@
 # Chapter별 Check List
 - [x] 1편: 자바 Generics
-- [ ] 2편: Generics에서 와일드카드 활용법, 람다와 인터섹션 타입을 이용한 동적인 기능확장법
+- [x] 2-1편: Generics에서 와일드카드 활용법
+- [ ] 2-2편: 람다와 인터섹션 타입을 이용한 동적인 기능확장법
 
 
 # Chapter별 Summary
@@ -37,7 +38,7 @@
     * ![image](https://user-images.githubusercontent.com/20143765/76697198-6a8f4f00-66d7-11ea-9d81-3126b0550633.png)
         * ?로 List를 유연하게 받을수 있지만.. 제약조건이 있음. add할때 등
         
-## 2편: Generics에서 와일드카드 활용법, 람다와 인터섹션 타입을 이용한 동적인 기능확장법
+## 2-1편: Generics에서 와일드카드 활용법
 * 와일드카드 활용법
     * ?(와일드카드)의 제한
         * List의 메서드는 (size(), clear(), iterator등) 사용가능
@@ -75,4 +76,6 @@
     * ![image](https://user-images.githubusercontent.com/20143765/76703060-d4c4e580-6711-11ea-9c94-680103a94870.png)
         * Ok
     * ![image](https://user-images.githubusercontent.com/20143765/76703063-dbebf380-6711-11ea-9ef5-fcbef3b626fe.png)
- 
+    
+    
+## 2-2편: 람다와 인터섹션 타입을 이용한 동적인 기능확장법
