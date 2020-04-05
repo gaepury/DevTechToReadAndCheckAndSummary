@@ -10,6 +10,18 @@
 
 
 # Chapter별 Summary
-## 1. GraphQL에 오신 것을 환영합니다.
-   - GraphQL 엔드포인트를 만들어 Rest 엔드포인트의 데이터를 가져오는 방식은 점진적으로 GraphQL을 도입할 수 있는 훌륭한 전략
+## 1, 2. GraphQL에 오신 것을 환영합니다, 그래프 이론
+- GraphQL 엔드포인트를 만들어 Rest 엔드포인트의 데이터를 가져오는 방식은 점진적으로 GraphQL을 도입할 수 있는 훌륭한 전략
+
+## 3. GraphQL 쿼리어
+- GraphQL 데이터는 저장환경을 가리지 않는다.(단일 데이터베이스, 여러 데이터베이스, 파일시스템, Rest API, 웹소켓, 또 다른 GraphQL API 등등)
+- Query(조회), Mutation(수정), Sucscription(소켓 연결로 전달되는 데이터 변경사항 감지)
+- 쿼리는 단순한 문자열로 GraphQL 엔드포인트로 Post 요청 본문에 담겨 전달
+### GraphQL API 툴
+- GraphiQL, GraphQL 플레이그라운드
+- 공용 GraphQL API
+   - SWAPI, Github API, Yelp 등
+   - https://github.com/APIs-guru/graphql-apis
+
+   
  
