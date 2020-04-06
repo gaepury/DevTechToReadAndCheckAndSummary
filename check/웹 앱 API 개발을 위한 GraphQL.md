@@ -24,6 +24,21 @@
 - 공용 GraphQL API
    - SWAPI, Github API, Yelp 등
    - https://github.com/APIs-guru/graphql-apis
-
+### GraphQL 쿼리
+- query lifts {}
+   - query: GraphQL 타입(루트타입), 타입 하나가 곧 하나의 작업을 수행, 작업이 곧 쿼리문서의 루트를 의미
+   - API 문서를 보면 Query 타입으로 선택할수 있는 필드가 나와있음.
+- 셀렉션 세트
+   - 중괄호로 묶인 블록
+   - 서로 중첩 가능
+   - 별칭 부여
+      - ex: ```chairlifts: allLifts {}```
+- 쿼리 인자
+   - 키-값쌍
+   - ex: ```allLifts(status: CLOSED) {}```
+- 필드
+   - 스칼라타입: 정수, 실수, 문자열, 불, 고유 식별자(ID)
+      - 고유식별자: 반드시유일한문자열반환) 
+   - 객체타입
    
  
