@@ -20,6 +20,7 @@
 ### GraphQL API 툴
 - GraphiQL, GraphQL 플레이그라운드
    - GraphQL 플레이그라운드 웹버전: https://www.graphqlbin.com/v2/new
+   - GraphQL 플레이그라운드 데스크톱앱 설치: https://github.com/prisma-labs/graphql-playground/releases
 - 공용 GraphQL API
    - SWAPI, Github API, Yelp 등
    - https://github.com/APIs-guru/graphql-apis
