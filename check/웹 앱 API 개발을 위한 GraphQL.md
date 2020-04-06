@@ -19,6 +19,7 @@
 - 쿼리는 단순한 문자열로 GraphQL 엔드포인트로 Post 요청 본문에 담겨 전달
 ### GraphQL API 툴
 - GraphiQL, GraphQL 플레이그라운드
+   - GraphQL 플레이그라운드 웹버전: https://www.graphqlbin.com/v2/new
 - 공용 GraphQL API
    - SWAPI, Github API, Yelp 등
    - https://github.com/APIs-guru/graphql-apis
