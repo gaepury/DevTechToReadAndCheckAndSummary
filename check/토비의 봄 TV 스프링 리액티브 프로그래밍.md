@@ -11,6 +11,9 @@
 - [x] 9편: Mono의 동작방식과 block()
 - [x] 10편: Flux의 특징과 활용방법
   
+  
+출처: (토비의 봄 TV 스프링 리액티브 프로그래밍, 백기선) - 유튜브
+
 # Chapter별 Summary
 ## 1편(Reactive Streams)
 https://www.youtube.com/watch?v=8fenTR3KOJo
