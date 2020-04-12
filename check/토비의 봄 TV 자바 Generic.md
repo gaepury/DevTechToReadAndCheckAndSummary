@@ -6,7 +6,7 @@
 출처: (토비의 봄 TV, 이토비) - 유튜브
 # Chapter별 Summary
 ## 1편: 자바 Generics
-* https://www.youtube.com/watch?v=ipT2XG1SHtQ&t=11s
+https://www.youtube.com/watch?v=ipT2XG1SHtQ&t=11s
 * 지네릭 메서드(메소드 레벨)
     * static, instance메서드 둘다 사용 가능
     * 지네릭 메서드가 static 메서드일경우 메소드 매개변수의 타입파라미터는 클레스 레벨의 타입파라미터를 이용할수 없다.
@@ -42,7 +42,7 @@
 ---
 
 ## 2-1편: Generics에서 와일드카드 활용법
-* https://www.youtube.com/watch?v=PQ58n0hk7DI&t=3002s
+https://www.youtube.com/watch?v=PQ58n0hk7DI&t=3002s
 * 와일드카드 활용법
     * ?(와일드카드)의 제한
         * List의 메서드는 (size(), clear(), iterator등) 사용가능
