@@ -42,6 +42,7 @@
 ---
 
 ## 2-1편: Generics에서 와일드카드 활용법
+* https://www.youtube.com/watch?v=PQ58n0hk7DI&t=3002s
 * 와일드카드 활용법
     * ?(와일드카드)의 제한
         * List의 메서드는 (size(), clear(), iterator등) 사용가능
