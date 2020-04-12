@@ -152,6 +152,7 @@ https://www.youtube.com/watch?v=LK6NRV8tZBM
   
 ---
 ## 10편(Flux의 특징과 활용방법)
+https://www.youtube.com/watch?v=bc4wTgA_2Xk&t=3838s
 * Flux 간단 예제(Flux.just)
     * ![image](https://user-images.githubusercontent.com/20143765/75628368-b3e19800-5c1b-11ea-8ec1-0a6fb2d84a78.png)
     * Flux.just 인자론 여러개
