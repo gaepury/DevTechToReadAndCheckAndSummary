@@ -16,9 +16,9 @@
    - 진행률: 0%
 7. [리팩토링(마틴 파울러)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81.md)
    - 진행률: 0%
-8. [DevOps와 SE를 위한 리눅스 커널 이야기(강진우)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/DevOps%EC%99%80%20SE%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EB%A6%AC%EB%88%85%EC%8A%A4%20%EC%BB%A4%EB%84%90%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
+8. [DevOps와 SE를 위한 리눅스 커널 이야기(강진우)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/DevOps%EC%99%80%20SE%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EB%A6%AC%EB%88%85%EC%8A%A4%20%EC%BB%A4%EB%84%90%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md))**(In Progress..)**
    - 진행률: 0%
-9. [자바 트러블 슈팅(이상민)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%9E%90%EB%B0%94%20%ED%8A%B8%EB%9F%AC%EB%B8%94%20%EC%8A%88%ED%8C%85.md)
+9. [자바 트러블 슈팅(이상민)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%9E%90%EB%B0%94%20%ED%8A%B8%EB%9F%AC%EB%B8%94%20%EC%8A%88%ED%8C%85.md))**(In Progress..)**
    - 진행률: 28%
 10. [HTTP 완벽 가이드(안슈 아가왈)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/HTTP%20%EC%99%84%EB%B2%BD%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
     - 진행률: 0%
@@ -52,7 +52,7 @@
     - 진행률: 0%
 25. [3분 딥러닝(김진중)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/3%EB%B6%84%20%EB%94%A5%EB%9F%AC%EB%8B%9D.md)
     - 진행률: 40%
-26. [자바 최적화: 가장 빠른 성능을 구현하는 검증된 10가지 기법(벤저민 J 등...)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
+26. [자바 최적화: 가장 빠른 성능을 구현하는 검증된 10가지 기법(벤저민 J 등...)])**(In Progress..)**(https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
     - 진행률: 27%**(In Progress..)**
 27. [모던 자바인 액션(라울-게이브리얼 우르마 등...)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
     - 진행률: 0%
@@ -75,12 +75,12 @@
 4. [더 자바, 코드를 조작하는 다양한 방법(백기선)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EB%8D%94%20%EC%9E%90%EB%B0%94%2C%20%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%A1%B0%EC%9E%91%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95.md)
    - 진행률: 0%
 5. [토비의 봄 TV 스프링 리액티브 프로그래밍](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%ED%86%A0%EB%B9%84%EC%9D%98%20%EB%B4%84%20TV%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%A6%AC%EC%95%A1%ED%8B%B0%EB%B8%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
-   - 진행률: 60%(6/10)**(In Progress..)**
+   - 진행률: 60%(6/10)
 6. [토비의 봄 TV 자바 Generic](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%ED%86%A0%EB%B9%84%EC%9D%98%20%EB%B4%84%20TV%20%EC%9E%90%EB%B0%94%20Generic.md)
-   - 진행률: 67%(2/3)**(In Progress..)**
+   - 진행률: 67%(2/3)
 7. ~~[생활코딩 github actions](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9%20github%20actions.md)~~
    - 진행률: 100%   
-8. [Reactor(백기선 Youtube)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EB%A6%AC%EC%95%A1%ED%84%B0(%EB%B0%B1%EA%B8%B0%EC%84%A0).md)
+8. [Reactor(백기선 Youtube)])**(In Progress..)**(https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EB%A6%AC%EC%95%A1%ED%84%B0(%EB%B0%B1%EA%B8%B0%EC%84%A0).md)
    - 진행률: 0%
    
 ## Done List
