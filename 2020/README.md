@@ -8,7 +8,7 @@
    - 진행률: 0%
 3. [Clean Code(로버트 C 마틴)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/Clean%20Code.md)
    - 진행률: 0%
-4. [스프링 5 레시피(마린 데니엄 등..)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%8A%A4%ED%94%84%EB%A7%81%205%20%EB%A0%88%EC%8B%9C%ED%94%BC.md)
+4. [스프링 5 레시피(마린 데니엄 등..)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%8A%A4%ED%94%84%EB%A7%81%205%20%EB%A0%88%EC%8B%9C%ED%94%BC.md))**(In Progress..)**
    - 진행률: 0%
 5. [테스트 주도 개발(켄트백)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%A3%BC%EB%8F%84%20%EA%B0%9C%EB%B0%9C.md)
    - 진행률: 0%
@@ -20,7 +20,7 @@
    - 진행률: 0%
 9. [자바 트러블 슈팅(이상민)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%9E%90%EB%B0%94%20%ED%8A%B8%EB%9F%AC%EB%B8%94%20%EC%8A%88%ED%8C%85.md))**(In Progress..)**
    - 진행률: 28%
-10. [HTTP 완벽 가이드(안슈 아가왈)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/HTTP%20%EC%99%84%EB%B2%BD%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)
+10. [HTTP 완벽 가이드(안슈 아가왈)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/HTTP%20%EC%99%84%EB%B2%BD%20%EA%B0%80%EC%9D%B4%EB%93%9C.md))**(In Progress..)**
     - 진행률: 0%
 11. [자바 성능 튜닝 이야기(이상민)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
     - 진행률: 0%
@@ -40,7 +40,7 @@
     - 진행률: 0%
 19. [코딩 인터뷰 완전분석(게일 라크만 맥도웰)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%BD%94%EB%94%A9%20%EC%9D%B8%ED%84%B0%EB%B7%B0%20%EC%99%84%EC%A0%84%EB%B6%84%EC%84%9D.md)
     - 진행률: 0%
-20. [Kubernetes In Action(마르코 룩샤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/Kubernetes%20In%20Action.md)
+20. [Kubernetes In Action(마르코 룩샤)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/Kubernetes%20In%20Action.md))**(In Progress..)**
     - 진행률: 0%
 21. ~~[자바로 배우는 핵심 자료구조와 알고리즘(앨런 B. 다우니)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%9E%90%EB%B0%94%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%ED%95%B5%EC%8B%AC%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)~~
     - 진행률: 100%
@@ -60,8 +60,9 @@
     - 진행률: 0%
 29. [함수형 자바스크립트(루이스 아텐시오)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%ED%95%A8%EC%88%98%ED%98%95%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.md)
     - 진행률: 50%**(In Progress..)**
-30. [웹 앱 API 개발을 위한 GraphQL](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EC%9B%B9%20%EC%95%B1%20API%20%EA%B0%9C%EB%B0%9C%EC%9D%84%20%EC%9C%84%ED%95%9C%20GraphQL.md)
+30. [웹 앱 API 개발을 위한 GraphQL](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EC%9B%B9%20%EC%95%B1%20API%20%EA%B0%9C%EB%B0%9C%EC%9D%84%20%EC%9C%84%ED%95%9C%20GraphQL.md))**(In Progress..)**
     - 진행률: 28%
+31. [DDD START!]()
     
 
 
