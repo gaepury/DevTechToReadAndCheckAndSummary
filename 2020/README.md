@@ -52,7 +52,7 @@
     - 진행률: 0%
 25. [3분 딥러닝(김진중)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/3%EB%B6%84%20%EB%94%A5%EB%9F%AC%EB%8B%9D.md)
     - 진행률: 40%
-26. [자바 최적화: 가장 빠른 성능을 구현하는 검증된 10가지 기법(벤저민 J 등...)])**(In Progress..)**(https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
+26. [자바 최적화: 가장 빠른 성능을 구현하는 검증된 10가지 기법(벤저민 J 등...)])(https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
     - 진행률: 27%**(In Progress..)**
 27. [모던 자바인 액션(라울-게이브리얼 우르마 등...)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
     - 진행률: 0%
