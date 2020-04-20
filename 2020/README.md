@@ -81,7 +81,7 @@
    - 진행률: 67%(2/3)
 7. ~~[생활코딩 github actions](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9%20github%20actions.md)~~
    - 진행률: 100%   
-8. [Reactor(백기선 Youtube)])(https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EB%A6%AC%EC%95%A1%ED%84%B0(%EB%B0%B1%EA%B8%B0%EC%84%A0).md)**(In Progress..)**
+8. [Reactor(백기선 Youtube)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EB%A6%AC%EC%95%A1%ED%84%B0(%EB%B0%B1%EA%B8%B0%EC%84%A0).md) **(In Progress..)**
    - 진행률: 25%
    
 ## Done List
