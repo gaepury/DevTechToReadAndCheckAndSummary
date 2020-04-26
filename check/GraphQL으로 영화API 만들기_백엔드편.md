@@ -1,4 +1,4 @@
-## Chapter별 Check List
+# Chapter별 Check List
 - [ ] Introduction for Graph QL class
 - [ ] Problems solved by GraphQL
 - [ ] Creating a GraphQL Server with GraphQL Yoga
@@ -12,3 +12,6 @@
 - [ ] Wrapping a REST API with GraphQL Part One
 - [ ] Wrapping a REST API with GraphQL Part Two
 - [ ] Overview to the final API
+
+
+# Chapter별 Summary
