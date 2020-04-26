@@ -1,4 +1,4 @@
-
+## Chapter별 Check List
 - [ ] Introduction for Graph QL class
 - [ ] Problems solved by GraphQL
 - [ ] Creating a GraphQL Server with GraphQL Yoga
