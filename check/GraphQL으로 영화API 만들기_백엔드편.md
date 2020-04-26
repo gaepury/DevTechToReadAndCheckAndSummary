@@ -1,1 +1,14 @@
 
+- [ ] Introduction for Graph QL class
+- [ ] Problems solved by GraphQL
+- [ ] Creating a GraphQL Server with GraphQL Yoga
+- [ ] Creating the first Query and Resolver
+- [ ] Extending the Schema
+- [ ] Extending the Schema part Two
+- [ ] Creating Queries with Arguments
+- [ ] Defining Mutations
+- [ ] Creating first Mutation
+- [ ] Delete Mutation
+- [ ] Wrapping a REST API with GraphQL Part One
+- [ ] Wrapping a REST API with GraphQL Part Two
+- [ ] Overview to the final API
