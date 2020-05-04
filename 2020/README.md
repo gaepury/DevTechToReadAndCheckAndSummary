@@ -86,7 +86,7 @@
 9. [GraphQL으로 영화API 만들기_백엔드편(노마드 코더)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/GraphQL%EC%9C%BC%EB%A1%9C%20%EC%98%81%ED%99%94API%20%EB%A7%8C%EB%93%A4%EA%B8%B0_%EB%B0%B1%EC%97%94%EB%93%9C%ED%8E%B8.md)
    - 진행률: 0%
 10. [Apollo & GraphQL로 영화 웹앱 만들기_프론트엔드(노마드 코더)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/Apollo%20%26%20GraphQL%EB%A1%9C%20%EC%98%81%ED%99%94%20%EC%9B%B9%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C.md)
-   - 진행률: 0%
+    - 진행률: 0%
    
 ## Done List
 1. [더 자바, 애플리케이션을 테스트하는 다양한 방법(백기선)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EB%8D%94%20%EC%9E%90%EB%B0%94,%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%84%20%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95.md)
