@@ -83,10 +83,10 @@
    - 진행률: 100%   
 8. [Reactor(백기선 Youtube)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EB%A6%AC%EC%95%A1%ED%84%B0(%EB%B0%B1%EA%B8%B0%EC%84%A0).md) **(In Progress..)**
    - 진행률: 25%
-9. [GraphQL으로 영화API 만들기_백엔드편(노마드 코더)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/GraphQL%EC%9C%BC%EB%A1%9C%20%EC%98%81%ED%99%94API%20%EB%A7%8C%EB%93%A4%EA%B8%B0_%EB%B0%B1%EC%97%94%EB%93%9C%ED%8E%B8.md)
-   - 진행률: 0%
-10. [Apollo & GraphQL로 영화 웹앱 만들기_프론트엔드(노마드 코더)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/Apollo%20%26%20GraphQL%EB%A1%9C%20%EC%98%81%ED%99%94%20%EC%9B%B9%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C.md)
-    - 진행률: 0%
+9. ~~[GraphQL으로 영화API 만들기_백엔드편(노마드 코더)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/GraphQL%EC%9C%BC%EB%A1%9C%20%EC%98%81%ED%99%94API%20%EB%A7%8C%EB%93%A4%EA%B8%B0_%EB%B0%B1%EC%97%94%EB%93%9C%ED%8E%B8.md)~~
+   - 진행률: 100%
+10. ~~[Apollo & GraphQL로 영화 웹앱 만들기_프론트엔드(노마드 코더)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/Apollo%20%26%20GraphQL%EB%A1%9C%20%EC%98%81%ED%99%94%20%EC%9B%B9%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C.md)~~
+    - 진행률: 100%
    
 ## Done List
 1. [더 자바, 애플리케이션을 테스트하는 다양한 방법(백기선)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EB%8D%94%20%EC%9E%90%EB%B0%94,%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%84%20%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95.md)
@@ -95,4 +95,7 @@
    - 완료 날짜: 2020.03.08(토)
 3. [자바로 배우는 핵심 자료구조와 알고리즘(앨런 B. 다우니)](https://github.com/gaepury/TechBookToReadAndCheck/blob/master/check/%EC%9E%90%EB%B0%94%EB%A1%9C%20%EB%B0%B0%EC%9A%B0%EB%8A%94%20%ED%95%B5%EC%8B%AC%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
    - 완료 날짜: 2020.04.05(일)
-   
+4. [GraphQL으로 영화API 만들기_백엔드편(노마드 코더)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/GraphQL%EC%9C%BC%EB%A1%9C%20%EC%98%81%ED%99%94API%20%EB%A7%8C%EB%93%A4%EA%B8%B0_%EB%B0%B1%EC%97%94%EB%93%9C%ED%8E%B8.md)
+   - 완료 날짜: 2020.05.09(토)
+5. [Apollo & GraphQL로 영화 웹앱 만들기_프론트엔드(노마드 코더)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/Apollo%20%26%20GraphQL%EB%A1%9C%20%EC%98%81%ED%99%94%20%EC%9B%B9%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C.md)
+   - 완료 날짜: 2020.05.09(토)
