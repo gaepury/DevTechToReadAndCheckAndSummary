@@ -12,6 +12,7 @@
 ## 1. Setup and project outline, Setting up an Apollo Client, Setting up React Router
 * Movieql server, client 멀티 모듈 세팅
    * https://github.com/gaepury/movieql
+   * npm-run-all 으로 client, server 동시 실행
    * package.json
 ``` javascript
 {
