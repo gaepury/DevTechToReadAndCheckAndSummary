@@ -24,9 +24,8 @@
 
 ## 2. Creating a GraphQL Server with GraphQL Yoga
 * GraphQL 서버 설정
-    * import { GraphQLServer } from "graphql-yoga";
-
 ``` javascript
+import { GraphQLServer } from "graphql-yoga";
 console.log('aa3')
 
 const server = new GraphQLServer({
