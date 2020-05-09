@@ -1,6 +1,6 @@
 # Chapter별 Check List
-- [ ] Introduction for Graph QL class
-- [ ] Problems solved by GraphQL
+- [x] Introduction for Graph QL class
+- [x] Problems solved by GraphQL
 - [ ] Creating a GraphQL Server with GraphQL Yoga
 - [ ] Creating the first Query and Resolver
 - [ ] Extending the Schema
