@@ -102,3 +102,77 @@ function App() {
 
 export default App;
 ```
+
+---
+
+## 2. Getting data from the GraphQL API part 1, 2
+### * Getting data from the GraphQL API part 1
+* graphql-tag
+``` javascript
+import gql from 'graphql-tag'
+
+
+export const HOME_PAGE = gql `
+  {
+    movies(limit: 10, rating: 8.0) {
+      id
+      title
+      genres
+    }
+  }
+```
+
+### Getting data from the GraphQL API part 2
+- Home
+``` javascript 
+import React from "react";
+import {useQuery} from '@apollo/react-hooks'
+import {HOME_PAGE} from "./query"
+
+const Home = () => {
+  const {loading, data, error} = useQuery(HOME_PAGE)
+  if (loading) return <span>loading..</span>
+  if (error) return <span>something happend..</span>
+
+  return data.movies.map(movie => <h2 key={movie.props}>{movie.title} / {movie.rating}</h2>)
+}
+
+export default Home;
+```
+
+---
+
+## 3. Details Route with params
+- ![image](https://user-images.githubusercontent.com/20143765/81477972-7b7ebb80-9255-11ea-991a-129023a888fb.png)
+   - match.params.movieId 를 깔끔하게 가져오는 방법
+
+---
+
+## 4. Creating a Query with variables
+* param(movie id)를 받아오는 부분은 apollo 문법(graphql이랑은 별도)
+    * 받아온 movie id를 가지고 movie, suggestion query 만듬 
+```
+    * export const MOVIE_DETAILS = gql`
+  query getMovieDetails($movieId: Int!) {
+    movie(id: $movieId) {
+      medium_cover_image
+      title
+      rating
+      description_intro
+      language
+      genres
+    }
+    suggestions(id: $movieId) {
+      id
+      title
+      rating
+      medium_cover_image
+    }
+  }
+`;
+```
+
+---
+
+## 5. Conclusion
+* cache, fetch, state, loading, error등을 매직같이 처리해준다. 너무 아름답다.
