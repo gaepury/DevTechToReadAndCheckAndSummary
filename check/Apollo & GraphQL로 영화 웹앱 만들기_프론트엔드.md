@@ -1,12 +1,12 @@
 # Chapter별 Check List
 - [x] Setup and project outline
 - [x] Setting up an Apollo Client
-- [ ] Setting up React Router
-- [ ] Getting data from the GraphQL API part One
-- [ ] Getting data from the GraphQL API part Two
-- [ ] Details Route with params
-- [ ] Creating a Query with variables
-- [ ] Conclusions
+- [x] Setting up React Router
+- [x] Getting data from the GraphQL API part One
+- [x] Getting data from the GraphQL API part Two
+- [x] Details Route with params
+- [x] Creating a Query with variables
+- [x] Conclusions
 
 # Chapter별 Summary
 ## 1. Setup and project outline, Setting up an Apollo Client, Setting up React Router
@@ -151,8 +151,9 @@ export default Home;
 ## 4. Creating a Query with variables
 * param(movie id)를 받아오는 부분은 apollo 문법(graphql이랑은 별도)
     * 받아온 movie id를 가지고 movie, suggestion query 만듬 
-```
-    * export const MOVIE_DETAILS = gql`
+    
+``` javascript
+export const MOVIE_DETAILS = gql`
   query getMovieDetails($movieId: Int!) {
     movie(id: $movieId) {
       medium_cover_image
