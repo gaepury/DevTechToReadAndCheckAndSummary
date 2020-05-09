@@ -9,7 +9,7 @@
 - [ ] Conclusions
 
 # Chapter별 Summary
-## 1. 1. Setup and project outline, Setting up an Apollo Client
+## 1. Setup and project outline, Setting up an Apollo Client, Setting up React Router
 * Movieql server, client 멀티 모듈 세팅
    * https://github.com/gaepury/movieql
 * Apollo client
