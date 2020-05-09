@@ -177,3 +177,9 @@ export const MOVIE_DETAILS = gql`
 
 ## 5. Conclusion
 * cache, fetch, state, loading, error등을 매직같이 처리해준다. 너무 아름답다.
+
+
+
+## 참고 샘플 코드
+클론: https://github.com/gaepury/movieql
+원본: https://github.com/nomadcoders
