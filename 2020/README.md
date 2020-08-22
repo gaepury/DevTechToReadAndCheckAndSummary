@@ -69,7 +69,7 @@
 ### 기술 인강
 1. ~~[더 자바, 애플리케이션을 테스트하는 다양한 방법(백기선)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EB%8D%94%20%EC%9E%90%EB%B0%94,%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%84%20%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95.md)~~
    - 진행률: 100%(43강/43강)
-2. [스프링 데이터 JPA(백기선)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20JPA.md)
+2. [스프링 데이터 JPA(백기선)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20JPA.md) **(In Progress..)**
    - 진행률: 33%(15강/45강)
 3. 스프링 기반 Rest API 개발(백기선)
    - 진행률: 0%
