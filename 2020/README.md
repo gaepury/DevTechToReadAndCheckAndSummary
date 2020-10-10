@@ -100,4 +100,4 @@
 5. [Apollo & GraphQL로 영화 웹앱 만들기_프론트엔드(노마드 코더)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/Apollo%20%26%20GraphQL%EB%A1%9C%20%EC%98%81%ED%99%94%20%EC%9B%B9%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C.md)
    - 완료 날짜: 2020.05.09(토)
 6. [스프링 데이터 JPA(백기선)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20JPA.md)
-   - 완료 날짜: 2020.09.30(수)(45강/45강)
+   - 완료 날짜: 2020.09.30(수)
