@@ -528,3 +528,12 @@
         ```
 
 
+----
+
+## 스프링 데이터 JPA 활용
+#### 15. 스프링 데이터 JPA 활용 파트 소개
+  * ![image](https://user-images.githubusercontent.com/20143765/95673322-6205e500-0be2-11eb-8ea2-2c02ab0ec308.png) 
+  * ![image](https://user-images.githubusercontent.com/20143765/95673324-6500d580-0be2-11eb-99af-747bc1d26c19.png)
+      * 스프링 데이터 common
+          * Reposity를 생성해서 빈으로 등록하는 방법 or 쿼리메서드를 만드는 기본 메커니즘이 들어있음
+  * http://projects.spring.io/spring-data/
