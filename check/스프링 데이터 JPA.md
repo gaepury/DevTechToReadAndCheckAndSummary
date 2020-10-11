@@ -226,3 +226,263 @@
           * ![image](https://user-images.githubusercontent.com/20143765/95673175-6b428200-0be1-11eb-8869-04305ad9e8f6.png)
           * street name이라는 객체 필드를 home_street 테이블 필드로 매핑한다.
 
+#### 9. JPA 프로그래밍: 1대다 맵핑
+  * 관계에는 항상 두 엔티티가 존재 합니다.
+      * 둘 중 하나는 그 관계의 주인(owning)이고
+      * 다른 쪽은 종속된(non-owning) 쪽입니다.
+      * 해당 관계의 반대쪽 레퍼런스를 가지고 있는 쪽이 주인.
+  * 단방향에서의 관계의 주인은 명확합니다.
+      * 관계를 정의한 쪽이 그 관계의 주인입니다.
+  * 단방향 @ManyToOne
+      * 기본값은 FK 생성
+      * Study Entity 객체내에 Account owner필드에 @ManyToOne를 붙이면 주인은 Study
+  * 단방향 @OneToMany
+      * 기본값은 조인 테이블 생성
+      * account_studies라는 테이블 자동 생성
+  * 양방향
+      * Study에 owner Account가 있고 Account에는 studies Set<Study>가 있는것이 양방향
+          * Study Entity > owner Account필드 에 ManyToOne, Account Entity > studies Set<Study>필드에 OneToMany로 하면 양방향이 아님. 단방향이 두개인거
+      * 양방향으로 만들려면 OneToMany쪽에 mappedBy 속성에 관계를 정의한 필드를 적어줘야함(=> owner)
+          * ![image](https://user-images.githubusercontent.com/20143765/95673192-8f05c800-0be1-11eb-9541-c2d06d778225.png)
+      * FK 가지고 있는 쪽이 오너 따라서 기본값은 @ManyToOne 가지고 있는 쪽이 주인.
+      * 주인이 아닌쪽(@OneToMany쪽)에서 mappedBy 사용해서 관계를 맺고 있는 필드를 설정해야 합니다.
+  * 양방향
+      * @ManyToOne (이쪽이 주인)
+      * @OneToMany(mappedBy)
+      * 주인한테 관계를 설정해야 DB에 반영이 됩니다.
+  * 아래 두줄 코드는 한 묶음이 되어야 한다.
+      * ![image](https://user-images.githubusercontent.com/20143765/95673194-92994f00-0be1-11eb-87f3-860955cf3bf1.png)
+      * 컨베니언트 메서드
+      * ```
+        public void addStudy(Study study) {
+            this.getStudies().add(study);
+            study.setOwner(this);
+        }
+
+
+        public void removeStudy(Study study) {
+            this.getStudies().remove(study);
+            study.setOwner(null);
+        }
+        ```
+
+
+#### 10. JPA 프로그래밍: 엔티티 상태와 Cascade
+  * 엔티티의 상태 변화를 전파 시키는 옵션.
+      * Study에 상태가 변할때 Account상태가 변하도록 전파하고 싶다. 이때 ManyToOne or OneToMany에 cascade 옵션
+  * 잠깐? 엔티티의 상태가 뭐지?
+      * Transient: JPA가 모르는 상태
+      * Persistent: JPA가 관리중인 상태 (1차 캐시, Dirty Checking, Write Behind, ...)
+          * 1차 캐시
+              * session이라는 Persistent Context에 저장된것임(session(hibernate API) or EntityManager(JPA API))
+              * Account keesun = session.load(Account.class, account.getId());
+                  * 이 시점엔 select 쿼리가 발생하지 않고 캐시에서 꺼냄
+              * 관리중인 객체라는 의미는 변경사항을 계속 모니터링한다는것
+              * dirtyChecking: 이 객체의 변경사항을 계속 감지
+              * Write behind: 객체의 상태변화를 최대한 늦게(필요한 시점)에 적용
+      * ```
+        Account account = new Account();
+        account.setUsername("junho");
+        account.setPassword("jpa");
+
+
+        Study study = new Study();
+        study.setName("Spring Data Jpa");
+
+
+        study.setOwner(account);
+        account.getStudies().add(study);
+        // jpa
+//        entityManager.persist(account);
+
+
+        // hibernate
+        Session session = entityManager.unwrap(Session.class);
+        session.save(account);
+        session.save(study);
+
+
+        Account keesun = session.load(Account.class, account.getId());
+        keesun.setUsername("asdasd”); 
+        keesun.setUsername("asdasd2”); 
+        keesun.setUsername("asdasd3”); // dirty Checking, Write Behind
+        System.out.println("-----------");
+        System.out.println(keesun.getUsername());
+        ```
+      * Detached: JPA가 더이상 관리하지 않는 상태.
+          * 트랜잭션이 끝나서 session 밖으로 나왔을떄
+              * 예를 들어 Service에서 Repository 호출하고 Repository에서 트랜잭션이 끝남, 서비스에서 이 객체를 쓸땐 JPA, hibernate가 관리하는 객체가 아니다.(1차 캐시, dirty checking, write behind 발생 안함
+              * Re attach를 사용해서 다시 persistent상태로 만듬
+      * Removed: JPA가 관리하긴 하지만 삭제하기로 한 상태.
+  * ![image](https://user-images.githubusercontent.com/20143765/95673212-b9f01c00-0be1-11eb-9fb0-ddb38f339c19.png)
+
+      * save를 했다고 해서 바로 DB에 들어간게(insert query 발생 X) 아님, hibernate가 persistent 상태로 관리하고 있다가 때가 되면 insert
+  * Post, Comment(Parent, Child 구조)를 이용한 Cascade
+      * Post OneToMany에 cascade 옵션을 줘야 Comment 테이블에 데이터가 들어감.
+      * Cascade옵션을 여러개를 줄수 있음. Persistent, Removed(삭제 시점에도 반영되도록)
+  * ```
+    @Override
+    public void run(ApplicationArguments args) throws Exception {
+        Post post = new Post();
+        post.setTitle("Spring Data Jpa 언제 보나..");
+
+
+
+
+        Comment comment = new Comment();
+        comment.setComment("빨리 보고 싶어요");
+        post.addComment(comment);
+
+
+
+
+        Comment comment2 = new Comment();
+        comment2.setComment("빨리 보고 싶어요2");
+        post.addComment(comment2);
+
+
+
+
+        Session session = entityManager.unwrap(Session.class);
+        session.save(post);
+
+
+        // REMOVE Cascade
+        // Post post = session.get(Post.class, 1L);
+        // session.delete(post);
+    }
+
+
+    @Entity
+    public class Post {
+        @Id
+        @GeneratedValue
+        private Long id;
+
+
+
+
+        private String title;
+
+
+
+
+        @OneToMany(mappedBy = "post", cascade = {CascadeType.PERSIST, CascadeType.REMOVE}) // 여기에 cascade 옵션을 여러개를 지정 가능
+        private Set<Comment> comments = new HashSet<>();
+
+
+
+
+        public void addComment(Comment comment) {
+            this.getComments().add(comment);
+            comment.setPost(this);
+        }
+
+
+
+
+        public Long getId() {
+            return id;
+        }
+
+
+
+
+        public void setId(Long id) {
+            this.id = id;
+        }
+
+
+
+
+        public String getTitle() {
+            return title;
+        }
+
+
+
+
+        public void setTitle(String title) {
+            this.title = title;
+        }
+
+
+
+
+        public Set<Comment> getComments() {
+            return comments;
+        }
+
+
+
+
+        public void setComments(Set<Comment> comments) {
+            this.comments = comments;
+        }
+    }
+
+
+
+
+
+
+    @Entity
+    public class Comment {
+        @Id
+        @GeneratedValue
+        private Long id;
+
+
+
+
+        private String comment;
+
+
+
+
+        @ManyToOne
+        private Post post;
+
+
+
+
+        public Long getId() {
+            return id;
+        }
+
+
+
+
+        public void setId(Long id) {
+            this.id = id;
+        }
+
+
+
+
+        public String getComment() {
+            return comment;
+        }
+
+
+
+
+        public void setComment(String comment) {
+            this.comment = comment;
+        }
+
+
+
+
+        public Post getPost() {
+            return post;
+        }
+
+
+
+
+        public void setPost(Post post) {
+            this.post = post;
+        }
+    }
+    ```
