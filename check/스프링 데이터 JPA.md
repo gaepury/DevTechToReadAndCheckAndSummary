@@ -207,22 +207,22 @@
           * 좀더 읽기 쉽게 formatting
           
 #### 8. JPA 프로그래밍: Value 타입 매핑
-    * 엔티티 타입과 Value 타입 구분
-        * 식별자가 있어야 하는가. 독립적으로 존재해야 하는가.
-            * => 엔티티 타입
-    * Value 타입 종류
-        * 기본 타입 (String, Date, Boolean, ...)
-        * Composite Value 타입
-        * Collection Value 타입
-            * 기본 타입의 콜렉션
-            * 컴포짓 타입의 콜렉션
-    * Composite Value 타입 맵핑
-        * @Embeddable
-            * 임베디드할 객체에 붙임
-        * @Embedded
-            * @Entity 클래스에 붙임
-        * @AttributeOverrides
-        * @AttributeOverride
-            * ![image](https://user-images.githubusercontent.com/20143765/95673175-6b428200-0be1-11eb-8869-04305ad9e8f6.png)
-            * street name이라는 객체 필드를 home_street 테이블 필드로 매핑한다.
+  * 엔티티 타입과 Value 타입 구분
+      * 식별자가 있어야 하는가. 독립적으로 존재해야 하는가.
+          * => 엔티티 타입
+  * Value 타입 종류
+      * 기본 타입 (String, Date, Boolean, ...)
+      * Composite Value 타입
+      * Collection Value 타입
+          * 기본 타입의 콜렉션
+          * 컴포짓 타입의 콜렉션
+  * Composite Value 타입 맵핑
+      * @Embeddable
+          * 임베디드할 객체에 붙임
+      * @Embedded
+          * @Entity 클래스에 붙임
+      * @AttributeOverrides
+      * @AttributeOverride
+          * ![image](https://user-images.githubusercontent.com/20143765/95673175-6b428200-0be1-11eb-8869-04305ad9e8f6.png)
+          * street name이라는 객체 필드를 home_street 테이블 필드로 매핑한다.
 
