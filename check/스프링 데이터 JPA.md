@@ -96,7 +96,7 @@
       * 릴레이션에도 UDT로 사용자 정의타입을 만들수 있다. 
       * ORM이 해결책을 제공해준다.
   * 서브타입(Subtype) 문제
-      * ![image](https://user-images.githubusercontent.com/20143765/95673137-1acb2480-0be1-11eb-8e20-2ce6423c110a.png)
+      * ![image](https://user-images.githubusercontent.com/20143765/95673154-3df5d400-0be1-11eb-952d-5fa85ff00199.png)
       * ORM에서는 해당 문제에 대해 다양한 해결책을 제공해주고 다형성을 지원하는 해결책도 있음.
   * 식별성(Identity) 문제
       * ![image](https://user-images.githubusercontent.com/20143765/95673139-1f8fd880-0be1-11eb-9340-0d360793b111.png)
