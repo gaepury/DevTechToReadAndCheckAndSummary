@@ -110,3 +110,119 @@
           * 각 스터디의 각 오너 조회가 n
           * 총합: n+1
 
+#### 6. JPA 프로그래밍: 프로젝트 세팅
+  * 데이터베이스 실행
+      * PostgreSQL 도커 컨테이너 재사용
+      * docker start postgres_boot
+  * 스프링 부트
+      * 스프링 부트 v2.*
+      * 스프링 프레임워크 v5.*
+  * 스프링 부트 스타터 JPA
+      * JPA 프로그래밍에 필요한 의존성 추가
+          * JPA v2.*
+          * Hibernate v5.*
+      * 자동 설정: HibernateJpaAutoConfiguration
+          * 컨테이너가 관리하는 EntityManager (프록시) 빈 설정
+          * PlatformTransactionManager 빈 설정
+          * JPA를 사용하는 데 필요한 모든 빈들이 자동으로 등록된다.
+  * application.properties
+      * JDBC 설정
+          * spring.datasource.url=jdbc:postgresql://localhost:5432/springdata
+          * spring.datasource.username=keesun
+          * spring.datasource.password=pass
+      * spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+          * 불필요함
+      * spring.jpa.hibernate.ddl-auto=create
+          * 개발할때는 update를 사용하는게 편하지만 주의할점
+              * Entity 객체에서 필드를 추가하면 테이블에도 필드가 추가됨. 하지만 Entity 객체에서 필드를 삭제해도 테이블에선 사라지지 않아서 지저분해질수 있다.
+  * JPA, Hibernate API 사용해보기
+  * ```
+    @Transactional
+    @Component
+    public class JpaRunner implements ApplicationRunner {
+        @PersistenceContext
+        EntityManager entityManager;
+
+
+        @Override
+        public void run(ApplicationArguments args) throws Exception {
+            Account account = new Account();
+            account.setUsername("junho");
+            account.setPassword("jpa");
+
+
+            // jpa
+    //        entityManager.persist(account);
+
+
+            // hibernate
+            Session session = entityManager.unwrap(Session.class);
+            session.save(account);
+        }
+    }
+    ```
+
+#### 7. JPA 프로그래밍: 엔티티 매핑
+  * @Entity
+      * “엔티티”는 객체 세상에서 부르는 이름.
+      * 보통 클래스와 같은 이름을 사용하기 때문에 값을 변경하지 않음.
+      * 엔티티의 이름은 JQL에서 쓰임.
+      * 엔티티의 이름은 테이블 이름과 별개
+  * @Table
+      * “릴레이션" 세상에서 부르는 이름.
+      * @Entity의 이름이 기본값.
+      * 테이블의 이름은 SQL에서 쓰임.
+      * 특정 DB에서는 User 테이블을 만들수 없음(대표적으로 postgresql)
+          * 클래스 이름을 User라고 하고 Entity의 name 속성에 users(user는 마찬가지로 안됨)라고 해도 됨. 하지만 설정을 줄이기 위해 Account라고 씀
+  * @Id
+      * 엔티티의 주키를 맵핑할 때 사용.
+      * 자바의 모든 primitive 타입과 그 랩퍼 타입을 사용할 수 있음
+          * 보통 랩퍼 타입을 사용한다
+      * Date랑 BigDecimal, BigInteger도 사용 가능.
+      * 복합키를 만드는 맵핑하는 방법도 있지만 그건 논외로..
+  * @GeneratedValue
+      * 주키의 생성 방법을 맵핑하는 애노테이션
+      * 생성 전략과 생성기를 설정할 수 있다.
+      * 기본 전략은 AUTO: 사용하는 DB에 따라 적절한 전략 선택
+          * postgres는 기본적으로 SEQUENCE
+      * TABLE, SEQUENCE, IDENTITY 중 하나.
+  * @Column
+      * unique
+      * nullable
+      * length
+      * columnDefinition
+          * sql문법을 사용해서 등록해야할경우
+      * * ...
+  * @Temporal
+      * 현재 JPA 2.1까지는 Date와 Calendar만 지원.
+  * @Transient
+      * 컬럼으로 맵핑하고 싶지 않은 멤버 변수에 사용.
+      * Getter, Setter는 없어도 컬럼으로 매핑됨
+  * spring.jpa.hibernate.ddl-auto=update로 하면 중간에 column타입등을 바꿔도 적용되지 않음
+  * application.properties
+      * 직접 매번 console 들어가서 확인해야 하나? No!
+      * spring.jpa.show-sql=true
+          * 어떤 sql이 날라가는지 볼수 있음
+      * spring.jpa.properties.hibernate.format_sql=true
+          * 좀더 읽기 쉽게 formatting
+          
+#### 8. JPA 프로그래밍: Value 타입 매핑
+    * 엔티티 타입과 Value 타입 구분
+        * 식별자가 있어야 하는가. 독립적으로 존재해야 하는가.
+            * => 엔티티 타입
+    * Value 타입 종류
+        * 기본 타입 (String, Date, Boolean, ...)
+        * Composite Value 타입
+        * Collection Value 타입
+            * 기본 타입의 콜렉션
+            * 컴포짓 타입의 콜렉션
+    * Composite Value 타입 맵핑
+        * @Embeddable
+            * 임베디드할 객체에 붙임
+        * @Embedded
+            * @Entity 클래스에 붙임
+        * @AttributeOverrides
+        * @AttributeOverride
+            * ![image](https://user-images.githubusercontent.com/20143765/95673175-6b428200-0be1-11eb-8869-04305ad9e8f6.png)
+            * street name이라는 객체 필드를 home_street 테이블 필드로 매핑한다.
+
