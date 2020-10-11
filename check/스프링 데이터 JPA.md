@@ -878,10 +878,10 @@
       * 구현방법
           * 1. 커스텀 리포지토리 인터페이스 정의
              * ```
-              public interface PostCustomRepository {
-                  List<Post> findMyPost();
-              }
-              ```
+                public interface PostCustomRepository {
+                    List<Post> findMyPost();
+                }
+               ```
           * 2. 인터페이스 구현 클래스 만들기 (기본 접미어는 Impl)
              * ```
                 @Repository
@@ -910,4 +910,116 @@
   * 기본 기능 덮어쓰기
   * 접미어 설정하기
      * ``@EnableJpaRepositories(repositoryImplementationPostfix = "Default")``
+     
+
+#### 23. 스프링 데이터 Common: 기본 리포지토리 커스터마이징
+  * 모든 리포지토리에 공통적으로 추가하고 싶은 기능이 있거나 덮어쓰고 싶은 기본 기능이 있다면
+      1. JpaRepository를 상속 받는 인터페이스 정의
+          * @NoRepositoryBean
+      2. 기본 구현체를 상속 받는 커스텀 구현체 만들기
+      3. @EnableJpaRepositories에 설정
+  * repositoryBaseClass
+      * 구현한 base 클래스를 알려줘야함
+  * ```
+    @NoRepositoryBean
+    public interface CustomRepository<T, ID extends Serializable> extends JpaRepository<T, ID> {
+        boolean contains(T entity);
+    }
+
+    public class CustomRepositoryImpl<T, ID extends Serializable> extends
+    SimpleJpaRepository<T, ID> implements CustomRepository<T, ID> {
+        private EntityManager entityManager;
+
+        public CustomRepositoryImpl(JpaEntityInformation<T, ?> entityInformation,
+    EntityManager entityManager) {
+            super(entityInformation, entityManager);
+    this.entityManager = entityManager; }
+
+        @Override
+        public boolean contains(T entity) {
+    return entityManager.contains(entity); }
+    }
+
+    @EnableJpaRepositories(repositoryBaseClass = CustomRepositoryImpl.class)
+    public interface PostRepository extends CustomRepository<Post, Long> {
+    }
+    ```
+
+#### 24. 스프링 데이터 Common: 도메인 이벤트
+  * 도메인 관련 이벤트를 발생시키기
+  * 스프링 프레임워크의 이벤트 관련 기능
+      * https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#cont ext-functionality-events
+      * ApplicationContext extends ApplicationEventPublisher
+          * applicationContext는 빈팩토리 이외에 publisher 역할도 함
+      * 이벤트: extends ApplicationEvent
+      * 리스너
+          * ○ implements ApplicationListener<E extends ApplicationEvent>
+          * @EventListener
+          * 바로 빈 등록하는데에 구현 가능
+                * ![image](https://user-images.githubusercontent.com/20143765/95673454-95953f00-0be3-11eb-9c4c-95331110f25f.png)
+      * ```
+        public class PostPublisherEvent extends ApplicationEvent {
+            private final Post post;
+
+
+            public PostPublisherEvent(Object source) {
+                super(source);
+                this.post = (Post) source;
+            }
+
+
+            public Post getPost() {
+                return post;
+            }
+        }
+
+        public class PostListener implements ApplicationListener<PostPublisherEvent> {
+            @Override
+            public void onApplicationEvent(PostPublisherEvent event) {
+                System.out.println("------");
+                System.out.println(event.getPost().getTitle() + " is published");
+                System.out.println("------");
+            }
+        }
+
+        @Configuration
+        public class PostRepositoryTestConfig {
+            @Bean
+            public PostListener listener() {
+                return new PostListener();
+            }
+        }
+
+
+
+        @DataJpaTest
+        @Import(PostRepositoryTestConfig.class)
+        class PostRepositoryTest {
+        @Autowired
+        ApplicationContext applicationContext;
+        @Test
+        void applicationContext() {
+            Post post = new Post();
+            post.setTitle("event");
+            PostPublisherEvent event = new PostPublisherEvent(post);
+            applicationContext.publishEvent(event);
+        }
+        }
+        ```
+
+  * 스프링 데이터의 도메인 이벤트 Publisher
+      * @DomainEvents
+          *  이벤트를 담는곳
+          * 메서드에 단다
+      * @AfterDomainEventPublication
+          * 이벤트를 비우는  곳
+          * 메서드에 단다
+      * extends AbstractAggregateRoot<E>
+          * 위 두개가 미리 구현되있음.
+          * 직접 이벤트를 만들고 이벤트를 던지는 코딩을 할필요가 없다.
+      * 현재는 save() 할 때만 발생 합니다.
+  * 흐흐흐 이거 뭐 노트만 봐서는 전혀 감이 안잡히시죠? 강좌를 보시길 추천 드립니다. 특히나 이 부분은 레퍼런스에서도 대충 언급하고 있어서 예제 찾거나 만달어 보시기 쉽진 않으실 겁니다.
+
+
+    
 
