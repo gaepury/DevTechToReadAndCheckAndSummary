@@ -285,23 +285,19 @@
         account.setUsername("junho");
         account.setPassword("jpa");
 
-
         Study study = new Study();
         study.setName("Spring Data Jpa");
-
 
         study.setOwner(account);
         account.getStudies().add(study);
         // jpa
-//        entityManager.persist(account);
-
+        // entityManager.persist(account);
 
         // hibernate
         Session session = entityManager.unwrap(Session.class);
         session.save(account);
         session.save(study);
-
-
+        
         Account keesun = session.load(Account.class, account.getId());
         keesun.setUsername("asdasd”); 
         keesun.setUsername("asdasd2”); 
@@ -326,163 +322,209 @@
         Post post = new Post();
         post.setTitle("Spring Data Jpa 언제 보나..");
 
-
-
-
         Comment comment = new Comment();
         comment.setComment("빨리 보고 싶어요");
         post.addComment(comment);
-
-
-
 
         Comment comment2 = new Comment();
         comment2.setComment("빨리 보고 싶어요2");
         post.addComment(comment2);
 
-
-
-
         Session session = entityManager.unwrap(Session.class);
         session.save(post);
-
 
         // REMOVE Cascade
         // Post post = session.get(Post.class, 1L);
         // session.delete(post);
     }
-
-
+    
     @Entity
     public class Post {
         @Id
         @GeneratedValue
         private Long id;
-
-
-
-
         private String title;
-
-
-
 
         @OneToMany(mappedBy = "post", cascade = {CascadeType.PERSIST, CascadeType.REMOVE}) // 여기에 cascade 옵션을 여러개를 지정 가능
         private Set<Comment> comments = new HashSet<>();
-
-
-
 
         public void addComment(Comment comment) {
             this.getComments().add(comment);
             comment.setPost(this);
         }
-
-
-
-
+        
         public Long getId() {
             return id;
         }
-
-
-
 
         public void setId(Long id) {
             this.id = id;
         }
 
-
-
-
         public String getTitle() {
             return title;
         }
-
-
-
 
         public void setTitle(String title) {
             this.title = title;
         }
 
-
-
-
         public Set<Comment> getComments() {
             return comments;
         }
-
-
-
 
         public void setComments(Set<Comment> comments) {
             this.comments = comments;
         }
     }
 
-
-
-
-
-
     @Entity
     public class Comment {
         @Id
         @GeneratedValue
         private Long id;
-
-
-
-
         private String comment;
-
-
-
 
         @ManyToOne
         private Post post;
-
-
-
 
         public Long getId() {
             return id;
         }
 
-
-
-
         public void setId(Long id) {
             this.id = id;
         }
-
-
-
 
         public String getComment() {
             return comment;
         }
 
-
-
-
         public void setComment(String comment) {
             this.comment = comment;
         }
 
-
-
-
         public Post getPost() {
             return post;
         }
-
-
-
 
         public void setPost(Post post) {
             this.post = post;
         }
     }
     ```
+
+#### 11. JPA 프로그래밍: Fetch
+  * 연관 관계의 엔티티를 어떻게 가져올 것이냐... 지금 (Eager)? 나중에(Lazy)?
+      * @OneToMany의 기본값은 Lazy
+      * @ManyToOne의 기본값은 Eager
+  * @OneToMany에서 comment list 바로 가져오기
+      * @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+  * post 타이틀과 post에 해당 하는 각 comment 가져오기
+      * n+1이 재현되지 않는다. hibernate가 똑똑해졌다..
+  * ```
+    Post post = session.get(Post.class, 1L);
+    System.out.println(post.getTitle());
+
+
+    post.getComments().forEach(c -> {
+        System.out.println(c.getComment());
+    });
+    ```
+
+#### 12. JPA 프로그래밍: Query
+    * JPQL (HQL)
+        * Java Persistence Query Language / Hibernate Query Language
+        * 데이터베이스 테이블이 아닌, 엔티티 객체 모델 기반으로 쿼리 작성.
+        * JPA 또는 하이버네이트가 해당 쿼리를 SQL로 변환해서 실행함.
+        * https://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#hql
+        * ![image](https://user-images.githubusercontent.com/20143765/95673268-13584b00-0be2-11eb-92fa-a42e21262954.png)
+            * Comment 왜가져오지?
+                * toString떄문..
+        * 단점: 타입세이프 하지 않음.
+    * Criteria
+        * 타입 세이프 쿼리
+        * https://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#criteria
+        * ![image](https://user-images.githubusercontent.com/20143765/95673271-16533b80-0be2-11eb-8afd-41fe937e9310.png)
+    * Named query 사용
+        * ![image](https://user-images.githubusercontent.com/20143765/95673272-19e6c280-0be2-11eb-8b96-9e1cbb9fb768.png)
+        * ![image](https://user-images.githubusercontent.com/20143765/95673276-1d7a4980-0be2-11eb-9215-8e066f3ace82.png)
+    * Native Query
+        * SQL 쿼리 실행하기
+        * https://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#sql
+        * ![image](https://user-images.githubusercontent.com/20143765/95673277-21a66700-0be2-11eb-99c1-10801e7a4e7e.png)
+
+#### 13. 스프링 데이터 JPA 소개 및 원리
+  * 기존 방식
+  * ```
+    @Repository
+    public class PostRepository {
+        @PersistenceContext
+        private EntityManager entityManager;
+
+
+        public Post add(Post post) {
+            entityManager.persist(post);
+            return post;
+        }
+
+
+        public void delete(Post post) {
+            entityManager.detach(post);
+        }
+
+
+        public List<Post> findAll() {
+            return entityManager.createQuery("SELECT p FROM Post As p", Post.class)
+                    .getResultList();
+        }
+    }
+    ```
+
+  * JpaRepository<Entity, Id> 인터페이스
+      *  매직 인터페이스
+      * @Repository가 없어도 빈으로 등록해 줌.
+  * @EnableJpaRepositories
+      * 매직의 시작은 여기서 부터
+      * 원래 @Configuration붙은 클래스에 @EnableJpaRepositories를 붙여줘야하는데 Spring boot에서 자동으로 붙여줌(자동 설정에 의해)
+  * 매직은 어떻게 이뤄지나? 
+      * 시작은 @Import(JpaRepositoriesRegistrar.class)
+          * 얘가 JpaRepsitory들을 빈으로 등록해줌
+          * 
+      * 핵심은 ImportBeanDefinitionRegistrar 인터페이스
+          * 프로그래밍적으로 빈을 등록해줌
+      * ```
+        public class KeesunRegister implements ImportBeanDefinitionRegistrar {
+            @Override
+            public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry, BeanNameGenerator importBeanNameGenerator) {
+                GenericBeanDefinition beanDefinition = new GenericBeanDefinition();;
+                beanDefinition.setBeanClass(Keesun.class);
+                beanDefinition.getPropertyValues().add("name", "pury");
+
+
+                registry.registerBeanDefinition("keesun", beanDefinition);
+            }
+        }
+
+
+        public class Keesun {
+
+
+            private String name;
+
+
+            public String getName() {
+                return name;
+            }
+
+
+            public void setName(String name) {
+                this.name = name;
+            }
+        }
+
+        @Import(KeesunRegister.class)
+        를 해주면 Keesun 객체가 빈으로 등록됨
+        ```
+
+
