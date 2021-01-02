@@ -115,7 +115,7 @@
 6. [스프링 데이터 JPA(백기선)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20JPA.md)
    - 완료 날짜: 2020.09.30(수)
 7. [더 자바, 코드를 조작하는 다양한 방법(백기선)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EB%8D%94%20%EC%9E%90%EB%B0%94%2C%20%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%A1%B0%EC%9E%91%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95.md)
-   - 완료 날짜: 2020.12
+   - 완료 날짜: 2020.10.11(일)
 8. MongoDB Basic(Naver Share)
    - 완료 날짜: 2020.12.31(목)
 9. MySQL 쿼리 및 인덱스의 이해(Naver Share)
