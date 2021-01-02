@@ -87,7 +87,20 @@
    - 진행률: 100%
 10. ~~[Apollo & GraphQL로 영화 웹앱 만들기_프론트엔드(노마드 코더)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/Apollo%20%26%20GraphQL%EB%A1%9C%20%EC%98%81%ED%99%94%20%EC%9B%B9%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C.md)~~
     - 진행률: 100%
-   
+11. ~~MongoDB Basic(Naver Share)~~
+   - 진행률: 100%
+12. ~~MySQL 쿼리 및 인덱스의 이해(Naver Share)~~
+   - 진행률: 100%
+13. ~~백엔드 개발자를 위한 시큐어코딩 실습(Naver Share)~~
+   - 진행률: 100%
+14. ~~FE 성능 최적화 소개(Naver Share)~~
+   - 진행률: 100%
+15. ~~타입스크립트 기초(Naver Share)~~
+   - 진행률: 100%
+16. ~~성능 관련 웹표준 기술들(Naver Share)~~
+   - 진행률: 100%
+
+
 ## Done List
 1. [더 자바, 애플리케이션을 테스트하는 다양한 방법(백기선)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EB%8D%94%20%EC%9E%90%EB%B0%94,%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EC%9D%84%20%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95.md)
    - 완료 날짜: 2020.01.27(월)
@@ -102,4 +115,16 @@
 6. [스프링 데이터 JPA(백기선)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20JPA.md)
    - 완료 날짜: 2020.09.30(수)
 7. [더 자바, 코드를 조작하는 다양한 방법(백기선)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EB%8D%94%20%EC%9E%90%EB%B0%94%2C%20%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%A1%B0%EC%9E%91%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95.md)
-   - 완료 날짜: 2020.10.11(일)
+   - 완료 날짜: 2020.12
+8. MongoDB Basic(Naver Share)
+   - 완료 날짜: 2020.12
+9. MySQL 쿼리 및 인덱스의 이해(Naver Share)
+  - 완료 날짜: 2020.12
+10. 백엔드 개발자를 위한 시큐어코딩 실습(Naver Share)
+  - 완료 날짜: 2020.12
+11. FE 성능 최적화 소개(Naver Share)
+  - 완료 날짜: 2020.12
+12. 타입스크립트 기초(Naver Share)
+  - 완료 날짜: 2020.12
+13. 성능 관련 웹표준 기술들(Naver Share)
+  - 완료 날짜: 2020.12
