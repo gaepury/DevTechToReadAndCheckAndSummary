@@ -117,14 +117,14 @@
 7. [더 자바, 코드를 조작하는 다양한 방법(백기선)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EB%8D%94%20%EC%9E%90%EB%B0%94%2C%20%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%A1%B0%EC%9E%91%ED%95%98%EB%8A%94%20%EB%8B%A4%EC%96%91%ED%95%9C%20%EB%B0%A9%EB%B2%95.md)
    - 완료 날짜: 2020.12
 8. MongoDB Basic(Naver Share)
-   - 완료 날짜: 2020.12
+   - 완료 날짜: 2020.12.31(목)
 9. MySQL 쿼리 및 인덱스의 이해(Naver Share)
-  - 완료 날짜: 2020.12
+  - 완료 날짜: 2020.12.27(일)
 10. 백엔드 개발자를 위한 시큐어코딩 실습(Naver Share)
   - 완료 날짜: 2020.12
 11. FE 성능 최적화 소개(Naver Share)
-  - 완료 날짜: 2020.12
+  - 완료 날짜: 2020.12.17(목)
 12. 타입스크립트 기초(Naver Share)
-  - 완료 날짜: 2020.12
+  - 완료 날짜: 2020.12.23(수)
 13. 성능 관련 웹표준 기술들(Naver Share)
-  - 완료 날짜: 2020.12
+  - 완료 날짜: 2020.12.29(화)
