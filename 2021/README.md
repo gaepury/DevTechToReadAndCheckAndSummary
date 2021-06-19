@@ -73,7 +73,7 @@
    - 진행률: 67%(2/3)
 4. [Reactor(백기선 Youtube)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EB%A6%AC%EC%95%A1%ED%84%B0(%EB%B0%B1%EA%B8%B0%EC%84%A0).md) **(In Progress..)**
    - 진행률: 25%
-5. 함수형 프로그래밍(인프런,유인동)
+~~5. 함수형 프로그래밍(인프런,유인동)~~
 6. Elasticsearch 이해(Naver Share)
 7. 파이토치 기초(부스트코스)
 8. Spring Journey(Naver Share)
