@@ -82,3 +82,5 @@
 11. mongodb advanced(Naver Share)
 
 ## Done List
+1. 함수형 프로그래밍(인프런,유인동)
+  - 완료 날짜: 2021.1.18
