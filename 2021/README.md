@@ -74,15 +74,18 @@
 4. [Reactor(백기선 Youtube)](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EB%A6%AC%EC%95%A1%ED%84%B0(%EB%B0%B1%EA%B8%B0%EC%84%A0).md) **(In Progress..)**
    - 진행률: 25%
 5. ~~함수형 프로그래밍(인프런,유인동)~~
-6. Elasticsearch 이해(Naver Share)
-7. 파이토치 기초(부스트코스)
-8. Spring Journey(Naver Share)
-9. Pytorch를 활용한 딥러닝(Naver Share)
-10. spring security(인프런,백기선)
-11. mongodb advanced(Naver Share)
+6. ~~Elasticsearch 이해(Naver Share)~~
+7. ~~사내개발플랫폼 Overview~~
+8. 파이토치 기초(부스트코스)
+9. Spring Journey(Naver Share)
+10. Pytorch를 활용한 딥러닝(Naver Share)
+11. spring security(인프런,백기선)
+12. mongodb advanced(Naver Share)
 
 ## Done List
 1. 함수형 프로그래밍(인프런,유인동)
   - 완료 날짜: 2021.1.18
 2. Elasticsearch 이해(Naver Share)
+  - 완료 날짜: 2021.6.20
+2. 사내개발플랫폼 Overview(Naver Share)
   - 완료 날짜: 2021.6.20
