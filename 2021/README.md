@@ -76,16 +76,19 @@
 5. ~~함수형 프로그래밍(인프런,유인동)~~
 6. ~~Elasticsearch 이해(Naver Share)~~
 7. ~~사내개발플랫폼 Overview~~
-8. 파이토치 기초(부스트코스)
-9. Spring Journey(Naver Share)
-10. Pytorch를 활용한 딥러닝(Naver Share)
-11. spring security(인프런,백기선)
-12. mongodb advanced(Naver Share)
+8. ~~사내 분산 처리 시스템 DataSuite 사용법(cuve, c3, logiss)~~
+9. 파이토치 기초(부스트코스)
+10. Spring Journey(Naver Share)
+11. Pytorch를 활용한 딥러닝(Naver Share)
+12. spring security(인프런,백기선)
+13. mongodb advanced(Naver Share)
 
 ## Done List
 1. 함수형 프로그래밍(인프런,유인동)
   - 완료 날짜: 2021.1.18
 2. Elasticsearch 이해(Naver Share)
   - 완료 날짜: 2021.6.20
-2. 사내개발플랫폼 Overview(Naver Share)
+3. 사내개발플랫폼 Overview(Naver Share)
   - 완료 날짜: 2021.6.20
+4. 사내 분산 처리 시스템 DataSuite 사용법(cuve, c3, logiss)(Naver Share)
+  - 완료 날짜: 2021.6.27
