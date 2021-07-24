@@ -56,7 +56,7 @@
     - 진행률: 0%
 27. [스프링 5를 활용한 리액티브 프로그래밍(올레 도쿠카 등..)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%EC%8A%A4%ED%94%84%EB%A7%81%205%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%9C%20%EB%A6%AC%EC%95%A1%ED%8B%B0%EB%B8%8C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D.md)
     - 진행률: 0%
-28. [함수형 자바스크립트(루이스 아텐시오)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%ED%95%A8%EC%88%98%ED%98%95%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.**(In Progress..)**md)
+28. [함수형 자바스크립트(루이스 아텐시오)](https://github.com/gaepury/TechBookToReadAndCheckAndSummary/blob/master/check/%ED%95%A8%EC%88%98%ED%98%95%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8.)**(In Progress..)**md
     - 진행률: 50%
 29. [웹 앱 API 개발을 위한 GraphQL](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EC%9B%B9%20%EC%95%B1%20API%20%EA%B0%9C%EB%B0%9C%EC%9D%84%20%EC%9C%84%ED%95%9C%20GraphQL.md))**(In Progress..)**
     - 진행률: 28%
