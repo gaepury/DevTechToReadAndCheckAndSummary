@@ -61,6 +61,7 @@
 29. [웹 앱 API 개발을 위한 GraphQL](https://github.com/gaepury/DevTechToReadAndCheckAndSummary/blob/master/check/%EC%9B%B9%20%EC%95%B1%20API%20%EA%B0%9C%EB%B0%9C%EC%9D%84%20%EC%9C%84%ED%95%9C%20GraphQL.md))**(In Progress..)**
     - 진행률: 28%
 30. [DDD START!]()
+31. [오브젝트 디자인 스타일 가이드!]()**(In Progress..)**
     
 
 
